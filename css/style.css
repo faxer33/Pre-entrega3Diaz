@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  text-align: center;
+  padding: 20px;
+  border: 20px;
+}
+
+header nav ul li{
+  display: inline-block;
+  list-style: none;
+  background-color: rgb(184, 255, 71);
+  padding: 15px;
+  margin: 15px;
+}
+footer{
+  text-align: center;
+  margin-top: 40px;
+}
+
+header nav ul li a{
+text-decoration: none;
+color: brown;
+}
+body{
+  background-color: aqua;
+}
+
+main{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+    

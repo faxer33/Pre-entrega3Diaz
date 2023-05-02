@@ -1,0 +1,13 @@
+
+@import "components/_vars";
+@import "componets/_contacto";
+
+.header-contacto{
+    background-color: tomato;
+    nav{
+        background-color: azure;
+        ul{
+            display: flex;
+        }
+    }
+}
