@@ -1,13 +1,29 @@
+@import "components/vars";
+@import "components/contacto";
 
-@import "components/_vars";
-@import "componets/_contacto";
+.header-contacto {
+    background-color: rgb(189, 122, 110);
 
-.header-contacto{
-    background-color: tomato;
-    nav{
-        background-color: azure;
-        ul{
+    nav {
+        background-color: rgb(160, 255, 255);
+
+        ul {
             display: flex;
         }
     }
+}
+
+div {
+    width: 100px;
+    background-color: rgb(123, 215, 184);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+:root {
+    --color-primario: #f25d5d;
+    --bg-primario: #3f3f3f;
+    --text-side: 1.5rem;
 }
